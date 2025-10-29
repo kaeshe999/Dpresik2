@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "299399303343",
+    "project_id": "dpresik2",
+    "storage_bucket": "dpresik2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299399303343:android:d2ec97f9bd78f2a811845a",
+        "android_client_info": {
+          "package_name": "com.example.dpresik2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299399303343-03rq6u20i84r36knns42ho898plc5sfa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dpresik2",
+            "certificate_hash": "bbefd3be95b9bb30780d0982fc1e2c80ca448185"
+          }
+        },
+        {
+          "client_id": "299399303343-p50jtgpbcd6rj5pt20qmov6ud002r3iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIrViCehYT4cIEjopu8n-Q_TGNKQdu7ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299399303343-p50jtgpbcd6rj5pt20qmov6ud002r3iv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

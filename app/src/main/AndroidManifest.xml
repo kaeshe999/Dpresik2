@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permiso para conectarse a Firebase -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,15 +14,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dpresik2">
+
+        <!-- Pantalla 1: Login (Ya estaba) -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Pantalla 2: Menú Principal (Añadida) -->
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+
+        <!-- Pantalla 3: Info de Cuenta (Añadida - Paso 5) -->
+        <activity
+            android:name=".AccountInfoActivity"
+            android:exported="false"
+            android:parentActivityName=".MenuActivity"/>
+
+        <!-- Pantalla 4: ESP32 (Añadida - Paso 5) -->
+        <activity
+            android:name=".Esp32Activity"
+            android:exported="false"
+            android:parentActivityName=".MenuActivity"/>
+
     </application>
 
 </manifest>
+

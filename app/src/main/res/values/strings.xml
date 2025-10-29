@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Dpresik2</string>
+
+    <!-- AÑADIR: Pega aquí tu Web Client ID de google-services.json -->
+    <!-- Lo encontrarás en: project_info -> client -> oauth_client -> client_id (donde client_type es 3) -->
+    <string name="default_web_client_id">299399303343-p50jtgpbcd6rj5pt20qmov6ud002r3iv.apps.googleusercontent.com</string>
+
 </resources>

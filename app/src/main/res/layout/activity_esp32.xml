@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    tools:context=".Esp32Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Control ESP32"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Usamos un Switch para simular el "Activador" -->
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/esp32_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activar Dispositivo"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Texto que cambia según el estado del Switch -->
+    <TextView
+        android:id="@+id/status_text_esp32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado: Desactivado"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/back_button_esp32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver al Menú" />
+
+</LinearLayout>
